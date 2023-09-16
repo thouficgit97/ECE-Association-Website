@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("images/bg2.jpeg");
+    /* background: linear-gradient(#02134d 0%, #001f5a 100%); */
+    background-position:centre;
+    background-size:cover;
+    height:auto;
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+}
+.icon{
+    width:200px;
+    float: left; 
+    height: 70px;
+    margin-left: 20px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 24px;
+    padding-left: 20px;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float:left;
+    height: 70px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+#home{
+    color: #ff7200;
+}
+.menu ul li a:hover{
+    color: #ff7200;
+}
+
+.eceimg2{
+    width:1425px;
+    height:600px;
+    opacity: 0.6;
+}
+.clgvdo{
+    width:1420px;
+    height:811px;
+    opacity: 0.6;
+    
+}
+.bgimg2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.overlaytext{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #9dff00;
+    font-weight: bolder;
+}
+.msg{
+    width: 900px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.401);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: rgba(255, 238, 0, 0.637);
+}
+.msg img{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 140px;
+    height: 178px;
+}
+.msg h3{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(3, 17, 72);
+}
+.msg h2{
+    color:#9dff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-indent: 35%;
+    padding-top: 20px;
+
+}
+.msg p{
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    text-align:justify;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+.vision{
+    width: 550px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.401);
+    border-radius: 10px;
+    margin:50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: rgba(255, 238, 0, 0.637);
+}
+.vision h3{
+    color:#9dff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-indent: 41%;
+    padding-top: 20px;
+}
+.vision p{
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    text-align:justify;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+.mission{
+    width: 550px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.401);
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-top: -185px;
+    border-style: solid;
+    border-color: rgba(255, 238, 0, 0.637);
+    padding-bottom: 20px;
+}
+.mission h3{
+    color:#9dff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-indent: 41%;
+    padding-top: 20px;
+}
+.mission h4{
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.mission ul{
+    margin-left: 40px;
+
+}
+.mission ul li{
+   color: #000000;
+   padding-left: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 1px;
+   text-align: justify;
+   padding-right: 10px;
+   padding-top: 10px;
+}
+.announcements{
+    padding-top: 100px;
+    padding-left: 315px;
+    padding-bottom: 100px;
+}
+.upevents img{
+    border-radius: 50px;
+    width:800px;
+    height:815px;
+}
+footer {
+    background-color: #b77f35;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 97.15%;
+}
+
